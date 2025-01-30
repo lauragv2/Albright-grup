@@ -10,12 +10,7 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-# Function for division
-def divide(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Division by zero is not allowed!"
+
 
 # Main program
 print("Basic Arithmetic Operations")
