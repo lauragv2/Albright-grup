@@ -1,4 +1,4 @@
-# Albright-grup
+# Albright-group
 Contributors:  
 Rejuan
 Shafiza  
