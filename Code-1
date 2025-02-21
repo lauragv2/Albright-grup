@@ -2,25 +2,57 @@
 def add(a, b):
     return a + b
 
+# Function for subtraction
+def subtract(a, b):
+     return a - b
 
 # Function for multiplication
 def multiply(a, b):
     return a * b
+# Function for multiplication
+def multiply(a, b):
+    return a * b * c
 
 # Function for division
 def divide(a, b):
     if b != 0:
         return a / b
-    else:
-        return "Division by zero is not allowed!"
+def calculate_percentage(total, percent):
+    """
+    Calculate the percentage of a number.
+    :param total: The total number.
+    :param percent: The percentage to calculate.
+    :return: The calculated percentage value.
+    """
+    return (total * percent) / 100
 
-# Main program
+# Example usage
+if __name__ == "__main__":
+    print("Basic Arithmetic Operations")
+
+   # Main program
 print("Basic Arithmetic Operations")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+# Performing arithmetic operations
+    addition = add(num1, num2)
+    subtraction = subtract(num1, num2)
+    multiplication = multiply(num1, num2)
+    division = divide(num1, num2)
+    multiplication_three = multiply_three(num1, num2, num3)
+    
+    # Input for percentage calculation
+    total = float(input("Enter the total: "))
+    percent = float(input("Enter the percentage: "))
+    result_percentage = calculate_percentage(total, percent)
 
 print("\nResults:")
 print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
 print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Multiplication: {multiply(num1, num2, num3)}")
+print(f"{percent}% of {total} is {result}")
+
