@@ -4,11 +4,14 @@ def add(a, b):
 
 # Function for subtraction
 def subtract(a, b):
-    return a - b
+     return a - b
 
 # Function for multiplication
 def multiply(a, b):
     return a * b
+# Function for multiplication
+def multiply(a, b):
+    return a * b * c
 
 # Function for division
 def divide(a, b):
@@ -21,8 +24,12 @@ def divide(a, b):
 print("Basic Arithmetic Operations")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
 
 print("\nResults:")
+print(f"Addition: {add(num1, num2)}")
 print(f"Subtraction: {subtract(num1, num2)}")
 print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Multiplication: {multiply(num1, num2, num3)}")
+
