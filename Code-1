@@ -12,6 +12,9 @@ def multiply(a, b):
 # Function for multiplication
 def multiply(a, b):
     return a * b * c
+#function for exponentiation (power of a number)
+def power (a,b):
+return a**b
 
 # Function for division
 def divide(a, b):
@@ -55,4 +58,4 @@ print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
 print(f"Multiplication: {multiply(num1, num2, num3)}")
 print(f"{percent}% of {total} is {result}")
-
+print(f"power:{power{num1,num2)}") 
